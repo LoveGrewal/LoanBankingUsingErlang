@@ -9,17 +9,26 @@ What things you need to install the software and how to install them
 ```
 1. Operating System : Windows 10
 2. Erlang 10.4 or higher
-3. customers.txt and banks.txt 
-4. Run command in erlang shell as follows(keep txt files where project is kept):
+3. Java 1.8 or higher
+4. customers.txt and banks.txt 
+5.Erlang commands: 
+Run command in erlang shell as follows(keep txt files where project is kept):
     cd("path of folder").
     c(money).
     money:start().
+Erlang commands: 
+Run command in cmd as follows(keep txt files where project is kept):
+    javac Bank.java
+    javac Customer.java
+    javac Money.java
+    java Money
 ```
 
 ### Technical Details
 
 ```
 Erlang 10.4
+Java 1.8
 ```
 
 ### Test Cases
